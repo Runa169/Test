@@ -1,0 +1,16 @@
+package testRunner;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.observer.ExtentObserver;
+
+public class ExtentReportBasicDemo {
+
+	public static <ExtentHtmlReporter> void main(String[] args) {
+		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("extentReports.html");
+		ExtentReports extent = new ExtentReports();
+		extent.attachReporter((ExtentObserver[]) htmlReporter);
+		ExtentTest test1 = extent.createTest("Google Search Test One","this is a test to validate google search functionality");
+	}
+
+}
