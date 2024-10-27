@@ -6,6 +6,8 @@
 		<item value="github.com"/>
 	</list>
 	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/Runa169/Test.git"/>
+		<item value="https://github.com/Runa169/NewTestProject.git"/>
 		<item value="https://github.com/Runa169/TestProject.git"/>
 	</list>
 	<list key="CommitDialog.authorValues">
